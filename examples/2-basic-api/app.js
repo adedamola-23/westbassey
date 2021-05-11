@@ -21,7 +21,7 @@ const fetchData = async() => {
   
   result.innerHTML =  products
  } catch (error) {
-   result.innerHTML =  `error`
+   result.innerHTML =  `<h4>error</h4>`
  }
 }
 fetchData()
